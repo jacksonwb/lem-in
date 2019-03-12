@@ -56,6 +56,9 @@ end-6
      [end]
 ```
 
+## Method
+This program uses an Edmonds-Karp algorithm to calculate iterations of flow augmentation. BFS is used to prioritize shortest paths for each round of flow augmentation. The number of agents is used to optimize the tradeoff between short paths that are blocking and more paths that may have more rooms to traverse but provide a higher concurrent flow. With only a few agents a single path with 3 nodes may be prioritized, but with many agents more parallell routes with more rooms will provide a more optimized solution. When many independant routes are available the program optimizes path choices to achieve the minimum possible number of turns.
+
 ## Output
 The output describes the movement of agents through the map.
 
