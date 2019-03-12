@@ -11,9 +11,8 @@ The purpose of this program is to take specifically formatted input files descri
 The map map will be in the following format
 ```
 # of agents
-room section
-name of room x y
-link section
+room1 x y
+room2 x y
 room1-room2
 ```
 
@@ -59,7 +58,10 @@ end-6
 
 ## Output
 The output describes the movement of agents through the map.
-A movement is of the form `L[agent number]-[room name]`, with all movements in a turn occuring on a line.
+A movement is of the form:
+`L[agent number]-[room name]`
+
+Each line describes the movements in one turn.
 
 The following outpute describes movement through the above map:
 ```
