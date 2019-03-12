@@ -68,10 +68,10 @@ Each line describes the movements in one turn.
 The following outpute describes movement through the above map:
 ```
 L1-3 L2-1
-L1-4 L2-2 L3-3 L4-1
-L1-2 L2-end L3-4 L4-5
-L1-end L3-2 L4-6
-L3-end L4-end
+L2-5 L1-4 L3-3 L4-1
+L4-5 L3-4 L2-6 L1-2
+L4-6 L3-2 L2-end L1-end
+L4-end L3-end
 ```
 
 ## Usage
