@@ -58,7 +58,9 @@ end-6
 
 ## Output
 The output describes the movement of agents through the map.
+
 A movement is of the form:
+
 `L[agent number]-[room name]`
 
 Each line describes the movements in one turn.
@@ -73,7 +75,8 @@ L3-end L4-end
 ```
 
 ## Usage
-A map is read from STDIN
+A map is read from STDIN:
+
 `./lem-in [-qld] < map.in`
 
 The `-q` option suppresses the map in the output
