@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   debugger_options.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jbeall <jbeall@student.42.us.org>          +#+  +:+       +#+        */
+/*   By: jackson <jbeall@student.42.us.org>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/03/08 12:48:36 by jbeall            #+#    #+#             */
-/*   Updated: 2019/03/08 13:15:46 by jbeall           ###   ########.fr       */
+/*   Updated: 2019/03/16 17:47:34 by jackson          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,7 +35,7 @@ void	print_graph(int **graph, int num_rooms)
 
 void	print_info(t_lem_in *lem_in)
 {
-	ft_printf("\n==Lem-in-Info==\n");
+	ft_printf("==Lem-in-Info==\n");
 	ft_printf("Ant Count  [%d]\n", lem_in->num_ants);
 	ft_printf("Room Count [%d]\n", lem_in->num_rooms);
 	ft_printf("Start ID   [%d]\n", lem_in->start_id);
@@ -50,6 +50,7 @@ void	print_info(t_lem_in *lem_in)
 	print_graph(lem_in->f_graph, 2 * lem_in->num_rooms);
 	ft_printf("\n-F Final Graph-\n");
 	print_graph(lem_in->f_final_graph, lem_in->num_rooms);
+	ft_printf("\n");
 }
 
 void	print_bfs(t_bfs *bfs)
