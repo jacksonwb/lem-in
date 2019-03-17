@@ -8,7 +8,7 @@ The purpose of this program is to take specifically formatted input files descri
 `git clone --recurse-submodules https://github.com/jacksonwb/lem-in.git; cd lem-in; make`
 
 ## Input Map
-The map map will be in the following format
+The map will be in the following format
 ```
 # of agents
 room1 x y
